@@ -9,7 +9,7 @@ Cahier des charges :
 - Zone Admin
 
 
-3/ Ajout De Fonctionnalité :
+3/ Ajout De Fonctionnalité & De Page:
 
 Inscription :
 - MDP Sécuriser
@@ -19,3 +19,7 @@ Inscription :
 Page d'accueil :
 - Lien vers une page pour consulter les nouveaux articles.
 - Lien vers une page pour consulter les utilisateurs inscrits.
+
+Page User :
+- Affichage (Pseudo, Email, Date Inscription, Rang du membre)
+- Affichage du nombre de membre inscrit.
