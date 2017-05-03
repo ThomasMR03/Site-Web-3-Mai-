@@ -23,3 +23,6 @@ Page d'accueil :
 Page User :
 - Affichage (Pseudo, Email, Date Inscription, Rang du membre)
 - Affichage du nombre de membre inscrit.
+
+Zone Admin :
+- Ajout d'article

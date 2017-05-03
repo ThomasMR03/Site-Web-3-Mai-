@@ -36,6 +36,12 @@ $connect = "Disconnect";
 ob_start();
 if ($page==='home') {
 	require ROOT.'/pages/admin/index.php';
+}
+elseif ($page==='post.single'){
+	require ROOT.'/pages/admin/post/single.php';
+}
+elseif ($page==='post.add'){
+	require ROOT.'/pages/admin/post/add.php';
 }else{
 	require ROOT.'/pages/errors/404.php';
 }
