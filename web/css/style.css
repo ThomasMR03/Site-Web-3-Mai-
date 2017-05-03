@@ -1,0 +1,19 @@
+body{
+	padding-top: 100px;
+}
+
+#inscription{background-color: rgba(0,0,0,0.9); margin-bottom: 200px; padding: 20px; text-align: center;}
+#inscription h2{color: rgb(199,211,29); margin-bottom: 50px;}
+#inscription input{margin-bottom: 30px; width: 100%; text-align: center;}
+#inscription h3{color: white; font-size: 18px;}
+#inscription button{width: 40%; margin-left: 0%; margin-top: 30px; background-color:rgb(199,211,29); color: white; font-size: 20px;border:none; font-weight: bold; padding: 5px; transition-duration: .5s; }
+#inscription button:hover{background-color: rgba(40, 125, 44, 1);}
+
+#titre_log{
+	text-align: center; color: white;font-family: 'Ubuntu Mono', monospace;
+}
+.log{background-color: rgba(0,0,0,0.9); margin-bottom: 200px;}
+.formLogin{margin-bottom: 30px; padding: 20px;}
+.formLogin input{text-align: center;}
+.buttonLogin{width: 40%; margin-left: 30%; margin-top: 30px; background-color:rgb(199,211,29); color: white; font-size: 20px;border:none; font-weight: bold; padding: 5px; transition-duration: .5s; }
+.buttonLogin:hover{background-color: rgba(40, 125, 44, 1); }
