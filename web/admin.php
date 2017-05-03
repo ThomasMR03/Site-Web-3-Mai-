@@ -43,6 +43,9 @@ elseif ($page==='post.single'){
 elseif ($page==='deleteCom'){
 	require ROOT.'/pages/admin/commentaire/deleteCom.php';
 }
+elseif ($page==='deleteUser'){
+	require ROOT.'/pages/admin/utilisateur/deleteUser.php';
+}
 elseif ($page==='post.add'){
 	require ROOT.'/pages/admin/post/add.php';
 }else{

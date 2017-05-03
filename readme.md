@@ -9,7 +9,7 @@ Cahier des charges :
 - Zone Admin
 
 
-3/ Ajout De Fonctionnalité & De Page:
+3/ Ajout De Fonctionnalité & De Page :
 
 Inscription :
 - MDP Sécuriser
@@ -23,6 +23,7 @@ Page d'accueil :
 Page User :
 - Affichage (Pseudo, Email, Date Inscription, Rang du membre)
 - Affichage du nombre de membre inscrit.
+- Suppression de membre en Admin
 
 Zone Admin :
 - Ajout d'article
@@ -30,7 +31,15 @@ Zone Admin :
 Page Article :
 - Liste des derniers articles
 - Accés à une page pour afficher seulement l'article cliqué
+- Utilisateur récent
+- Nombre de commentaire posté par les membres
 
 Page Article Solo :
 - Ajout de commentaire
 - Boutton pour supprimer un commentaire
+
+4/ Base de donnée :
+- La base de donnée est fournis.
+
+5/ Trello :
+- Lien vers mon trello : https://trello.com/b/52rR6K0Z/site-web-7h
