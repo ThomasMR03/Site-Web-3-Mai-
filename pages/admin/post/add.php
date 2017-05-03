@@ -21,7 +21,7 @@ $date = date('Y-m-d');
 				]);
 			if ($req) {
 				////message Flash
-				header('location: admin.php');
+				header('location: index.php?p=Home');
 				?>
 				<div class="alert alert-success">Bien enregistré</div>
 				<?php

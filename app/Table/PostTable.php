@@ -18,7 +18,7 @@ class PostTable extends Table
 									articles.auteur,
 									articles.img
 								FROM articles
-								ORDER BY articles.id DESC
+								ORDER BY articles.id DESC LIMIT 0, 6
 
 							");
 	}
