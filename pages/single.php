@@ -52,7 +52,7 @@ if(isset($_SESSION['Auth'])){
 	<?php if(isset($_SESSION['Auth'])): ?> <!-- Si connecté Admin affiche Panel Admin, sinon affiche rien -->
           <?php if($utilisateurs->membre_rang == 'Admin'): ?>
 	<form action="admin.php?p=deleteCom" method="post" class="formComDelete">
-		<button class="buttonComDelete" type="submit" value="<?=$last->commentaires_id?>" name="id">X</button>
+		<button class="myButton" type="submit" value="<?=$last->commentaires_id?>" name="id">X</button>
 	</form>
 	<?php else : ?><?php endif; ?>
        <?php else : ?>
@@ -78,7 +78,7 @@ if(isset($_SESSION['Auth'])){
 					<textarea class="form-control" name="commentaire" placeholder="Ajouter votre commentaire" ></textarea>
 					<input type="hidden" name="articles_id" value="<?= $_GET['id'] ?>">
 					<input type="hidden" name="users_id" value="<?= $_SESSION['Id'] ?>">
-					<input id="buttonAction" " type="submit" name="" style="margin-top: 20px;">
+					<input class="myButton" type="submit" name="" style="margin-top: 20px;">
 				</form>
 		</div>
         <?php else : ?>

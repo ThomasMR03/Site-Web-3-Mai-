@@ -18,14 +18,14 @@
 			<tr>
 			<td><p class="action">Consulter les nouveaux articles ?</p></td>
 			<td style="padding: 30px; border: none;">
-			<a href="index.php?p=Home" id="buttonAction">Let's go !</a>
+			<a href="index.php?p=Home" class="myButton">Let's go !</a>
 			</td>
 			</tr>
 
 			<tr>
 				<td><p class="action">Consulter la liste des utilisateurs ?</p></td>
 				<td style="padding: 30px; border: none;">
-					<a href="index.php?p=Utilisateur" id="buttonAction">Let's go !</a>
+					<a href="index.php?p=Utilisateur" class="myButton">Let's go !</a>
 				</td>
 			</tr>
 		</tbody>

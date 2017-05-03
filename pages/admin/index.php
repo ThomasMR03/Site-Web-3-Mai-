@@ -22,7 +22,7 @@
 			<tr>
 			<td><p class="action">Ajouter un nouvel article !</p></td>
 			<td style="padding: 30px; border: none;">
-			<a href="admin.php?p=post.add" id="buttonAction">Let's go !</a>
+			<a href="admin.php?p=post.add" class="myButton">Let's go !</a>
 			</td>
 			</tr>
 		</tbody>

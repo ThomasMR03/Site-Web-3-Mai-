@@ -50,9 +50,9 @@ $date = date('Y-m-d');
         CKEDITOR.replace( 'editor1' );
     </script>
     <input type="hidden" name="date_creation" style="color: black; margin-bottom: 20px;" value="<?= $date ?>"><br>
-	<input id="buttonAction" type="submit" name="" style="margin-bottom: 80px;">
+	<input class="myButton" type="submit" name="" style="margin-bottom: 80px;">
 </form>
-<a href="admin.php"  id="buttonAction">Retour vers la page Admin</a>
+<a href="admin.php" class="myButton">Retour vers la page Admin</a>
 </div>
 <div class="col-md-4">
 	
