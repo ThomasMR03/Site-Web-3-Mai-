@@ -2,12 +2,16 @@ body{
 	padding-top: 100px;
 }
 
+/* Page Inscription */
+
 #inscription{background-color: rgba(0,0,0,0.9); margin-bottom: 200px; padding: 20px; text-align: center;}
-#inscription h2{color: rgb(199,211,29); margin-bottom: 50px;}
+#inscription h2{color: red; margin-bottom: 50px;}
 #inscription input{margin-bottom: 30px; width: 100%; text-align: center;}
 #inscription h3{color: white; font-size: 18px;}
-#inscription button{width: 40%; margin-left: 0%; margin-top: 30px; background-color:rgb(199,211,29); color: white; font-size: 20px;border:none; font-weight: bold; padding: 5px; transition-duration: .5s; }
+#inscription button{width: 40%; margin-left: 0%; margin-top: 30px; background-color:red; color: white; font-size: 20px;border:none; font-weight: bold; padding: 5px; transition-duration: .5s; }
 #inscription button:hover{background-color: rgba(40, 125, 44, 1);}
+
+/* Page Connexion */
 
 #titre_log{
 	text-align: center; color: white;font-family: 'Ubuntu Mono', monospace;
@@ -15,5 +19,15 @@ body{
 .log{background-color: rgba(0,0,0,0.9); margin-bottom: 200px;}
 .formLogin{margin-bottom: 30px; padding: 20px;}
 .formLogin input{text-align: center;}
-.buttonLogin{width: 40%; margin-left: 30%; margin-top: 30px; background-color:rgb(199,211,29); color: white; font-size: 20px;border:none; font-weight: bold; padding: 5px; transition-duration: .5s; }
+.buttonLogin{width: 40%; margin-left: 30%; margin-top: 30px; background-color:red; color: white; font-size: 20px;border:none; font-weight: bold; padding: 5px; transition-duration: .5s; }
 .buttonLogin:hover{background-color: rgba(40, 125, 44, 1); }
+
+/* Zone Admin */
+
+#hello_admin {color: lightgrey;font-family: 'Indie Flower', cursive;}
+#zoneAdmin{background-color: rgba(0,0,0,0.9); margin-bottom: 200px; padding: 20px; text-align: center; color: white;}
+#titre_admin{margin-bottom: 80px;font-family: 'Ubuntu Mono', monospace;}
+#titre_admin h1{font-family: 'Ubuntu Mono', monospace; font-size: 3.5em; border-bottom:6px solid  red; padding-bottom: 10px;}
+.description{color:red;font-family: 'Ubuntu Mono', monospace; font-size: 30px; border: none;}
+#buttonAction{background-color:red; padding: 8px; color: white; font-weight: bold;font-size: 20px; text-decoration: none;}
+.action{font-size: 20px; margin-top: 15px;}
