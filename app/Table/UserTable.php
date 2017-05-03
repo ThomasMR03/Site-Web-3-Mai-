@@ -18,4 +18,9 @@ class UserTable extends Table
 									 users.membre_rang
 									 FROM users WHERE id = ?",[$id], true);
 	}
+
+	public function nombreUser()
+	{
+		return $this->query("SELECT id FROM users");
+	}
 }

@@ -31,6 +31,8 @@ if ($page==='home') { //Si page = home
 	require ROOT.'/pages/users/disconnect.php';
 }elseif ($page==='Register') {
 	require ROOT.'/pages/users/register.php';
+}elseif ($page==='Utilisateur') {
+	require ROOT.'/pages/users/user.php';
 }elseif ($page==='403') {
 	require ROOT.'/pages/errors/403.php';
 }else{ //Page 404
