@@ -32,10 +32,10 @@ $date = date('Y-m-d');
 
 <script src="https://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
 
-<div class="col-md-4">
+<div class="col-md-2">
 	
 </div>
-<div class="col-md-4"  id="zoneAdmin">
+<div class="col-md-8"  id="zoneAdmin">
 <h2  class="description" style="text-align: center; border-bottom:6px solid  color: red; padding-bottom: 20px; margin-bottom: 20px;">Ajouter un article</h2>
 <form method="post">
 	<input type="hidden" name="id" value="">
@@ -54,7 +54,7 @@ $date = date('Y-m-d');
 </form>
 <a href="admin.php" class="myButton">Retour vers la page Admin</a>
 </div>
-<div class="col-md-4">
+<div class="col-md-2">
 	
 </div>
 

@@ -176,3 +176,6 @@ body{
 	position:relative;
 	top:1px;
 }
+
+#pseudoRecentInscrit{border-bottom: 1px solid red; padding-bottom: 8px;}
+#merci{color: rgb(113, 70, 38); font-size: 1.2em; margin-top: 20px;}

@@ -23,4 +23,9 @@ class UserTable extends Table
 	{
 		return $this->query("SELECT id FROM users");
 	}
+
+	public function lastUser()
+	{
+		return $this->query("SELECT * FROM users ORDER BY users.id DESC LIMIT 0, 5");
+	}
 }

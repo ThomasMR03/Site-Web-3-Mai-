@@ -25,4 +25,9 @@ class CommentaireTable extends Table
 								ORDER BY commentaires.id DESC
 							", [$category_id], $one);
 	}
+
+	public function nombreCommentaire()
+	{
+		return $this->query("SELECT id FROM commentaires");
+	}
 }
