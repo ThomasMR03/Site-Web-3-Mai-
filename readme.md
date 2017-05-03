@@ -33,3 +33,4 @@ Page Article :
 
 Page Article Solo :
 - Ajout de commentaire
+- Boutton pour supprimer un commentaire
