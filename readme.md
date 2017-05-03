@@ -26,3 +26,10 @@ Page User :
 
 Zone Admin :
 - Ajout d'article
+
+Page Article :
+- Liste des derniers articles
+- Accés à une page pour afficher seulement l'article cliqué
+
+Page Article Solo :
+- Ajout de commentaire

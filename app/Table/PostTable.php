@@ -15,13 +15,9 @@ class PostTable extends Table
 									articles.titre,
 									articles.contenu,
 									DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_fr,
-									articles.category_id,
 									articles.auteur,
-									articles.img,
-									categories.titre as category
+									articles.img
 								FROM articles
-								LEFT JOIN categories
-									ON articles.category_id = categories.id
 								ORDER BY articles.id DESC
 
 							");
@@ -33,13 +29,9 @@ class PostTable extends Table
 									articles.titre,
 									articles.contenu,
 									DATE_FORMAT(date_creation, '%d/%m/%Y') as date_creation_fr,
-									articles.category_id,
 									articles.auteur,
-									articles.img,
-									categories.titre as category
+									articles.img
 								FROM articles
-								LEFT JOIN categories
-									ON articles.category_id = categories.id
 								ORDER BY articles.id DESC
 								LIMIT 0, 4
 
@@ -53,11 +45,8 @@ class PostTable extends Table
 									articles.contenu,
 									articles.date_creation,
 									articles.auteur,
-									articles.img,
-									categories.titre as category
+									articles.img
 								FROM articles
-								LEFT JOIN categories
-									ON category_id = categories.id
 								WHERE articles.id = ?
 							", [$id], true);
 	}

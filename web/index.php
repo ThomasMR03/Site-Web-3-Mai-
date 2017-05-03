@@ -25,6 +25,10 @@ if ($page==='home') { //Si page = home
 	require ROOT.'/pages/index.php'; //Récupère la page ...
 
 //Suite page obligatoire
+}elseif ($page==='Home') {
+	require ROOT.'/pages/home.php';
+}elseif ($page==='Single') {
+	require ROOT.'/pages/single.php';
 }elseif ($page==='Login') {
 	require ROOT.'/pages/users/login.php';
 }elseif ($page==='Disconnect') {

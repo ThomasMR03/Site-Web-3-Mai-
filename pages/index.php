@@ -18,7 +18,7 @@
 			<tr>
 			<td><p class="action">Consulter les nouveaux articles ?</p></td>
 			<td style="padding: 30px; border: none;">
-			<a href="admin.php?p=posts.add" id="buttonAction">Let's go !</a>
+			<a href="index.php?p=Home" id="buttonAction">Let's go !</a>
 			</td>
 			</tr>
 
