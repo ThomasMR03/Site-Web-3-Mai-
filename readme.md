@@ -13,3 +13,7 @@ Inscription :
 - MDP Sécuriser
 - Date Inscription
 - Rang Inscrit Par défault
+
+Page d'accueil :
+- Lien vers une page pour consulter les nouveaux articles.
+- Lien vers une page pour consulter les utilisateurs inscrits.
