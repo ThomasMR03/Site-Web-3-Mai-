@@ -40,6 +40,9 @@ if ($page==='home') {
 elseif ($page==='post.single'){
 	require ROOT.'/pages/admin/post/single.php';
 }
+elseif ($page==='deleteCom'){
+	require ROOT.'/pages/admin/commentaire/deleteCom.php';
+}
 elseif ($page==='post.add'){
 	require ROOT.'/pages/admin/post/add.php';
 }else{
